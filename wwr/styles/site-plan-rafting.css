@@ -5,7 +5,7 @@
     --secondary-color: #3E6259;
     --accent1: #5B8266;
     --accent2: #AEF6C7;
-    --heading-font:  'https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap', handwriting; 
+    --heading-font:  'https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap', sans-serif; 
     --paragraph-font: 'https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap', sans-serif;
 
 }
