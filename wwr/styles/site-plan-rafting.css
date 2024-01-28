@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Nunito+Sans:opsz@6..12&display=swap');
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+:root {
+    --primay-color: #0C7489;
+    --secondary-color: #119DA4;
+    --accent1-color: #D7D9CE;
+    --accernt2-color: #13505b;
+
+    --heading-font: 'Istok Web', sans-serif;
+    --paragraph-font: 'Nunito Sans', sans-serif;
+
+    --nav-background-color: #119DA4;
+    --nav-link-color: #0000EE;
+    --nav-hover-link-color: #6C3B31;
+    --nav-hover-background-color: #13505b;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color:var(--primay-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+p{
+    padding: 25px;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.5rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-hover-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+}
