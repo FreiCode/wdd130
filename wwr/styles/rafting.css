@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Nunito+Sans:opsz@6..12&display=swap');
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+:root {
+    --primary-color: #0C7489;
+    --secondary-color: #119DA4;
+    --accent1-color: #D7D9CE;
+    --accent2-color: #13505b;
+
+    --heading-font: 'Istok Web', sans-serif;
+    --paragraph-font: 'Nunito Sans', sans-serif;
+
+    --nav-background-color: #119DA4;
+    --nav-link-color: #0000EE;
+    --nav-hover-link-color: #6C3B31;
+    --nav-hover-background-color: #13505b;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-family: var(--heading-font);
+    color:var(--secondary-color);
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+h1 {
+    position: absolute;
+    top: 15px;
+    left: 22%;
+    
+}
+.article {
+    position: absolute;
+    text-align: center;
+    font-size: small;
+    margin-top: 15px;
+    top: 90px;
+    right: 40px;
+    left: 40px;
+    background-color: var(--accent1-color);
+    padding: 4px;
+}
+.article img {
+    float: right;
+    width: 10%;
+    height: auto;
+}
+
+footer {
+    /* text-decoration: none; removes underlines from the liknks.*/
+    text-decoration: none;
+}
