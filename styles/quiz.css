@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&family=Nunito+Sans:opsz@6..12&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nunito Sans, sans-serif ;
+    font-size: 1.2rem;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 800px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color: navy;
+    text-align: center;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 1rem;
+    margin: 1rem;
+    border: none;
+}
+label {
+    text-align: left;
+    padding: 1rem;
+}
+
+label, button, select, textarea {
+    font-family: Istok Web, sans-serif;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+button:hover  {
+    background-color: darkgreen;
+}
+
+form {
+    width: 800px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+div {
+    display: grid;
+
+}
+
+.margin {
+    font-size: 1rem;
+    background-color: #333;
+    color: #eee;
+    width: 500px;
+    padding: 20px;
+    border-radius: 2px;
+    margin: 5px 60px 15px;
+}
+footer {
+    margin: 1rem auto 0;
+    width: 800px;
+    text-align: center;
+    font-size: .8rem;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
