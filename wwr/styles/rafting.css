@@ -47,7 +47,7 @@ header{
 
 
 .navbar a {
-    color: var(--primary-color);
+    color: var(--nav-link-color);
     text-decoration: none;
     
 }
@@ -75,7 +75,7 @@ h1 {
     position: absolute;
     top: 15px;
     left: 22%;
-    background-color: #fbfcfc9a;
+    background-color: #fbfcfcb1;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
@@ -90,7 +90,7 @@ h1 {
     top: 90px;
     right: 40px;
     left: 40px;
-    background-color:#fbfcfc84;
+    background-color:#fbfcfcb0;
     padding: 4px;
     border-radius: 4px;
 }
