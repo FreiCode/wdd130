@@ -85,7 +85,7 @@ body {
     top: 15px;
     left: 23%;
     background-color: #fbfcfcb1;
-    padding: 0px 10px;
+    padding: 0px 20px;
     border-radius: 10px;
     
     
@@ -147,6 +147,13 @@ body {
     border-bottom: 1px solid var(--primary-color);
 
 }
+.section4 {
+    display: grid;
+    grid-template-columns: repeat(30, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 15px;
+
+}
 .h2 { 
     grid-column: 1/6;
     padding-top: 5px;
@@ -163,7 +170,29 @@ body {
     max-width: 100%;
     border-radius: 8px;
 }
-
+.img_trips1 {
+    grid-column: 1/10;
+    grid-row: 1/2;
+}
+.img_trips2 {
+    grid-column: 10/21;
+    grid-row: 2/3;
+}
+.img_trips3 {
+    grid-column: 20/31;
+    grid-row: 3/4;
+}
+.trips_table {
+    display: flex;
+    grid-column: 15/30;
+    align-items: center;
+}
+.trips_contact_button {
+    display: flex;
+    align-items: center;
+    grid-column: 1/15;
+    grid-row: 3/4;
+}
 figure {
     text-align: center;
 }
