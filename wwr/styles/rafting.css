@@ -5,7 +5,7 @@
 }
 
 :root {
-    --primary-color: #0C7489;
+    --primary-color: #0c687a;
     --secondary-color: #105d6b;
     --accent1-color: #D7D9CE;
     --accent2-color: #13505b43;
@@ -61,7 +61,7 @@ header{
 }
 
 .navbar a:hover {
-    background-color: rgb(1, 90, 1);
+    background-color: darkgreen;
 }
 
 
@@ -262,11 +262,11 @@ button {
     font-size: 1.2rem;
 }
 button:hover {
-    background-color: rgb(1, 90, 1);
+    background-color: darkgreen;
 }
 iframe {
-    width: 175px;
+    width: 150px;
     height: auto;
-    margin: 8px 0;
+    margin: 15px 0;
 }
 
