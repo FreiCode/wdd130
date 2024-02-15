@@ -264,5 +264,9 @@ button {
 button:hover {
     background-color: rgb(1, 90, 1);
 }
-
+iframe {
+    width: 175px;
+    height: auto;
+    margin: 8px 0;
+}
 
