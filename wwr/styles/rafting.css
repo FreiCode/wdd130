@@ -141,7 +141,7 @@ body {
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px;
-    margin: 15px;
+    margin: 15px 40px;
     padding: 0 40px 20px;
     border-bottom: 1px solid var(--primary-color);
 
