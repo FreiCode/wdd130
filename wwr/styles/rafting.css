@@ -354,4 +354,14 @@ iframe {
     height: auto;
     margin: 15px 0;
 }
+table, tr, td {
+    padding: 1px;
+    border: 1px solid var(--primary-color);
+}
+.paragraph {
+    padding: 10px;
+    text-align: center;
+    font-family: var(--paragraph-font);
+    font-size: 1.25rem;
+}
 
